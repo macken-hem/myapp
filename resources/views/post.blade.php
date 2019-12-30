@@ -15,7 +15,7 @@
 					
 
 					<!-- New Book Form -->
-					<form action="/book" method="POST" class="form-horizontal">
+					<form action="/post" method="POST" class="form-horizontal">
 						{{ csrf_field() }}
 
 						<!-- Book Name -->
