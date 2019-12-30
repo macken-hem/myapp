@@ -1,5 +1,6 @@
 <?php
-
+use App\Post;
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +13,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('post');
 });
+
+Route::get('/index', 'PostController@index');
